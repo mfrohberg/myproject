@@ -71,8 +71,10 @@ var site = require('apostrophe-site')({
   },
 
   // These are the modules we want to bring into the project.
+  workflow: true,
   modules: {
     // Styles required by the new editor, must go FIRST
+    'apostrophe-workflow': {},
     'apostrophe-ui-2': {},
     'apostrophe-blog-2': {},
     'apostrophe-people': {

@@ -1,34 +1,35 @@
 {
-  "name": "the-new-sandbox",
+  "name": "node cms",
   "version": "0.5.0",
-  "description": "Sandbox site featuring typical Apostrophe features",
+  "description": "Apostrophe CMS",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/punkave/apostrophe-sandbox"
+    "url": "https://github.com/mfrohberg/myproject"
   },
-  "author": "P'unk Avenue",
+  "author": "mfrohberg@2u.com",
   "license": "BSD",
   "dependencies": {
     "apostrophe": "0.5.x",
-    "apostrophe-ui-2": "0.5.x",
-    "apostrophe-editor-2": "0.5.x",
-    "apostrophe-rss": "0.5.x",
-    "apostrophe-twitter": "0.5.x",
-    "apostrophe-pages": "0.5.x",
-    "apostrophe-blog-2": "0.5.x",
-    "apostrophe-events": "0.5.x",
-    "apostrophe-snippets": "0.5.x",
-    "apostrophe-map": "0.5.x",
-    "apostrophe-people": "0.5.x",
-    "apostrophe-site": "0.5.x",
-    "apostrophe-groups": "0.5.x",
     "apostrophe-blocks": "0.5.x",
+    "apostrophe-blog-2": "0.5.x",
+    "apostrophe-editor-2": "0.5.x",
+    "apostrophe-events": "0.5.x",
     "apostrophe-fancy-page": "0.5.x",
-    "optimist": "~0.6.0",
-    "apostrophe-redirects": "0.5.x"
+    "apostrophe-groups": "0.5.x",
+    "apostrophe-map": "0.5.x",
+    "apostrophe-pages": "0.5.x",
+    "apostrophe-people": "0.5.x",
+    "apostrophe-redirects": "0.5.x",
+    "apostrophe-rss": "0.5.x",
+    "apostrophe-site": "0.5.x",
+    "apostrophe-snippets": "0.5.x",
+    "apostrophe-twitter": "0.5.x",
+    "apostrophe-ui-2": "0.5.x",
+    "apostrophe-workflow": "^0.5.2",
+    "optimist": "~0.6.0"
   }
 }
